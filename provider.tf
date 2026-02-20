@@ -7,3 +7,7 @@ resource "azurerm_resource_group" "taki-rg1" {
   name     = "rg-terraform-cloud"
   location = "westus"
 }
+resource "azurerm_resource_group" "taki-rg234" {
+  name     = "rg-terra"
+  location = "westus"
+}
